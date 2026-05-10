@@ -1,0 +1,68 @@
+Skip to content
+B8indu
+TNS_JavaFullStack_Training
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Security and quality
+Insights
+Commit 7a03f38
+B8indu
+B8indu
+committed
+on Mar 11
+First Commit
+master
+1 parent 
+5d4e432
+ commit 
+7a03f38
+1 file changed
+
++29
+Lines changed: 29 additions & 0 deletions
+File tree
+Filter files…
+src/org/tnsif/cap/c2tc/oop
+Single_Level_Inheritance.java
+Search within code
+ 
+‎src/org/tnsif/cap/c2tc/oop/Single_Level_Inheritance.java‎
++29
+Lines changed: 29 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,29 @@
+package org.tnsif.cap.c2tc.oop;
+class Animal
+{
+	String name="Animal";
+	void eat()
+	{
+		System.out.println(name + "  is eating");
+	}
+}
+class Dog extends Animal
+{
+	void bark()
+	{
+		System.out.println(name +  "  barking");
+	}
+}
+public class Single_Level_Inheritance {
+	public static void main(String[] args) {
+		Dog dog=new Dog();
+		dog.eat();
+		dog.bark();
+	}
+}
+0 commit comments
+Comments
+0
+ (0)
+Comment
+You're not receiving notifications from this thread.
+
